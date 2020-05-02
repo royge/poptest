@@ -4,8 +4,8 @@
 
 A utility package that can be used when testing with gobuffalo pop connection.
 
-__The primary goal of this package is to override the database name from the
-database.yml programatically.__
+_The primary goal of this package is to override the database name from the
+database.yml programatically._
 
 ## How To Use
 
