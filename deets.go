@@ -46,8 +46,10 @@ func Deets(env string, cb func(*pop.ConnectionDetails) error) (d *pop.Connection
 
 	d = deets[env]
 
-	if err := cb(d); err != nil {
-		return nil, err
+	if cb != nil {
+		if err := cb(d); err != nil {
+			return nil, err
+		}
 	}
 
 	return d, nil
