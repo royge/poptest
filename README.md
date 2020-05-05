@@ -10,7 +10,9 @@ database.yml programatically._
 
 ## How To Use
 
-`go get github.com/royge/poptest`
+```
+go get github.com/royge/poptest
+```
 
 Example:
 
