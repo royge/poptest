@@ -9,7 +9,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/gobuffalo/pop"
+	pop "github.com/gobuffalo/pop/v5"
 )
 
 // Deets return pop connection details.

@@ -21,8 +21,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/gobuffalo/pop"
 	"github.com/royge/poptest"
+
+	pop "github.com/gobuffalo/pop/v5"
 )
 
 // ExampleDeets show the primary purpose of this package.
