@@ -16,3 +16,4 @@ vendor/
 
 # VIM temporary files
 .swp
+.*.swp
