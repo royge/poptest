@@ -6,7 +6,7 @@ import (
 
 	"github.com/royge/poptest"
 
-	pop "github.com/gobuffalo/pop/v5"
+	pop "github.com/gobuffalo/pop/v6"
 )
 
 // ExampleDeets show the primary purpose of this package.
