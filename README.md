@@ -1,6 +1,6 @@
 # poptest
 
-[![Build Status](https://travis-ci.org/royge/poptest.svg?branch=master)](https://travis-ci.org/royge/poptest)
+[![Go](https://github.com/royge/poptest/actions/workflows/go.yml/badge.svg)](https://github.com/royge/poptest/actions/workflows/go.yml)
 [![Go Report Card](https://goreportcard.com/badge/github.com/royge/poptest)](https://goreportcard.com/report/github.com/royge/poptest)
 
 A utility package that can be used when testing with gobuffalo pop connection.
@@ -23,7 +23,7 @@ import (
 
 	"github.com/royge/poptest"
 
-	pop "github.com/gobuffalo/pop/v5"
+	pop "github.com/gobuffalo/pop/v6"
 )
 
 // ExampleDeets show the primary purpose of this package.
