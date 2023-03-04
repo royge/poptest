@@ -17,3 +17,6 @@ vendor/
 # VIM temporary files
 .swp
 .*.swp
+
+# MacOS
+.DS_Store
